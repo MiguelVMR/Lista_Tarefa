@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,500;1,200;1,400;1,500&display=swap');
+:root {
+  --primary-color: rgb(17, 86, 102);
+  --primary-color-darker: rgb(9, 48, 56);
+}
+
+* {
+  box-sizing: border-box;
+  outline: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: url(/assets/img/City.png),no-repeat;
+  background-size: 110em;
+  background-position: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.3em;
+  line-height: 1.5em;
+}
+
+.container {
+  background: transparent;
+  max-width: 640px;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 20px;
+  backdrop-filter: blur(40px);
+  border: 2px solid rgba(255,255,255,0.5);
+  box-shadow: 0 0 30px rgba(0,0,0,0.5);
+}
+
+button{
+ align-items: center;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.8em;
+  color: white;
+  background-color: rgba(0, 0, 2, 0.753);
+  border: none;
+  font-weight: 500;
+  outline: none;
+}
+
+li {
+  font-weight: bold;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+input{
+  padding: 5px;
+  font-size: 20px;
+}
